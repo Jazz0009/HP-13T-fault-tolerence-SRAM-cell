@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design HP13T -cell HP13T -type schematic -newwindow
+window move -left 130 -top 130 -width 765 -height 425 -undock -max 
+window fit -x0 -4330 -y0 -1982 -x1 4602 -y1 3591 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
